@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign-sec{
+    border: 1px solid white;
+    height: 420px;
+    width: 500px;
+    border-radius: 6px;
+    margin-left: 420px;
+    margin-top: 200px;
+}
+.sign-sec h1{
+    color: blue;
+    font-size: 30px;
+    margin-left: 135px;
+}
+.sign-sec input{
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    border: none;
+    margin-left: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 4px;
+    padding-left: 10px;
+}
+.sign-sec a{
+    text-decoration: none;
+    color: skyblue;
+}
+.sign-sec a:hover{
+    color: rgb(212, 244, 255);
+}
+.sign-sec button{
+    background-color: #007bfc;
+    height: 40px;
+    width: 420px;
+    margin-left: 38px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.sign-sec button:hover{
+    background-color: #469fff;
+}
+.logo{
+    margin-left: 560px;
+    height: 20px;
+}
+.log-in{
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.sign-sec h2{
+    font-size: 16px;
+    margin-left: 80px;
+    color: #e5ebff8f;
+}
+.sign-sec h3{
+    font-size: 16px;
+    margin-left: 90px;
+    color: #e5ebff8f;
+}
+.sign-sec h4{
+    font-size: 16px;
+    margin-left: 130px;
+    color: #e5ebff8f;
+}

@@ -1,0 +1,222 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+.heading{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    height: 100px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.logo{
+    margin-right: 250px;
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-left: 60px;
+    float: left;
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+}
+.nav ul li a:hover{
+    font-size: 25px;
+}
+.Sign-up button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #007bfc;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 60px;
+}
+.Sign-up button:hover{
+    width: 110px;
+    border-radius: 8px;
+    height: 45px;
+    font-size: 20px;
+}
+.footer{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    float: left;
+    height: 210px;
+    padding: 10px;
+    border-top: 1px solid #e5ebff8f;
+    margin-top: 100px;
+}
+.fo-1 h2{
+    color: #e5ebff8f;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.fo-1 h1{
+    font-size: 18px;
+}
+.fo-list{
+    border-top: 1px solid #e5ebff8f;
+}
+.fo-list ul{
+    list-style-type: none;
+    margin-top: 40px;
+}
+.fo-list ul li{
+    float: left;
+    margin-right: 190px;
+    color: #e5ebff8f;
+}
+.fo-list ul li:first-child{
+    margin-left: 50px;
+}
+.fo-list ul li:hover{
+    color: white;
+}
+.middle-1{
+    margin-top: 80px;
+}
+.middle-1 h1{
+    font-size: 40px;
+    text-align: center;
+}
+.middle-1 button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #007bfc;
+    border-radius: 5px;
+    margin-left: 540px;
+}
+.middle-1 button:hover{
+    background-color: #469fff;
+}
+.cloud-compute{
+    height: 460px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 40px;
+    float: left;
+}
+.cloud-compute h1{
+    font-size: 28px;
+    color: #233ba2;
+    text-align: center;
+}
+.cloud-compute h2{
+    font-size: 18px;
+    color: #e5ebff8f;
+    text-align: center;
+}
+.cloud-compute h3{
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 80px;
+}
+.cloud-compute img{
+    margin-left: 35px;
+}
+.bare-metal{
+    height: 460px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 40px;
+    float: left;
+}
+.bare-metal h1{
+    font-size: 28px;
+    color: #233ba2;
+    text-align: center;
+    margin-top: 55px;
+}
+.bare-metal h2{
+    font-size: 18px;
+    color: #e5ebff8f;
+    text-align: center;
+}
+.bare-metal h3{
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 80px;
+}
+.bare-metal img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.block-storage{
+    height: 460px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 40px;
+    float: left;
+}
+.block-storage h1{
+    font-size: 28px;
+    color: #233ba2;
+    text-align: center;
+    margin-top: 55px;
+}
+.block-storage h2{
+    font-size: 18px;
+    color: #e5ebff8f;
+    text-align: center;
+}
+.block-storage h3{
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 80px;
+}
+.block-storage img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.dedicated-cloud{
+    height: 460px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-left: 40px;
+    float: left;
+}
+.dedicated-cloud h1{
+    font-size: 28px;
+    color: #233ba2;
+    text-align: center;
+    margin-top: 55px;
+}
+.dedicated-cloud h2{
+    font-size: 18px;
+    color: #e5ebff8f;
+    text-align: center;
+}
+.dedicated-cloud h3{
+    color: rgb(0, 119, 255);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 80px;
+}
+.dedicated-cloud img{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.products{
+    margin-top: 150px;
+}
+#products{
+    color: #007bfc;
+}

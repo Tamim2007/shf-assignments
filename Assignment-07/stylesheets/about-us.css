@@ -1,0 +1,160 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+.heading{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    height: 100px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.logo{
+    margin-right: 250px;
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-left: 60px;
+    float: left;
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+}
+.nav ul li a:hover{
+    font-size: 25px;
+}
+.Sign-up button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #007bfc;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 60px;
+}
+.Sign-up button:hover{
+    width: 110px;
+    border-radius: 8px;
+    height: 45px;
+    font-size: 20px;
+}
+.footer{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    float: left;
+    height: 210px;
+    padding: 10px;
+    border-top: 1px solid #e5ebff8f;
+    margin-top: 100px;
+}
+.fo-1 h2{
+    color: #e5ebff8f;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.fo-1 h1{
+    font-size: 18px;
+}
+.fo-list{
+    border-top: 1px solid #e5ebff8f;
+}
+.fo-list ul{
+    list-style-type: none;
+    margin-top: 40px;
+}
+.fo-list ul li{
+    float: left;
+    margin-right: 190px;
+    color: #e5ebff8f;
+}
+.fo-list ul li:first-child{
+    margin-left: 50px;
+}
+.fo-list ul li:hover{
+    color: white;
+}
+.get-started{
+    border-top: 1px solid #e5ebff8f;
+    margin-top: 100px;
+}
+.get-started h1{
+    font-size: 30px;
+    margin-left: 440px;
+    padding-top: 50px;
+}
+.get-started-input{
+    margin-left: 350px;
+}
+.get-started input{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.get-started button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #007bfc;
+    border-radius: 5px;
+}
+.get-started button:hover{
+    background-color: #469fff;
+}
+.hiring{
+    border-top: 1px solid #e5ebff8f;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.hiring h1{
+    font-size: 28px;
+    text-align: center;
+}
+.hiring button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    background-color: #007bfc;
+    border-radius: 2px;
+    margin-left: 550px;   
+}
+.mission{
+    border-top: 1px solid #e5ebff8f;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.mission h1{
+    font-size: 35px;
+    color: #3a62db;
+    margin-left: 550px;
+}
+.mission p{
+    line-height: 1.6;
+    padding-left: 50px;
+}
+.welcome{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.welcome h1{
+    font-size: 35px;
+    color: #3a62db;
+    margin-left: 500px;
+}
+.welcome h2{
+    font-size: 16px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#about-us{
+    color: #007bfc;
+}

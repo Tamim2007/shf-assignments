@@ -1,0 +1,160 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+.heading{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    height: 100px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.logo{
+    margin-right: 250px;
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-left: 60px;
+    float: left;
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+}
+.nav ul li a:hover{
+    font-size: 25px;
+}
+.Sign-up button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #007bfc;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 60px;
+}
+.Sign-up button:hover{
+    width: 110px;
+    border-radius: 8px;
+    height: 45px;
+    font-size: 20px;
+}
+.a{
+    margin-top: 100px;
+    clear: left;
+}
+.world{
+    border-top: 1px solid #e5ebff8f;
+}
+.world h1{
+    margin-left: 420px;
+    font-size: 28px;
+    color: #2749ad;
+}
+.world h2{
+    margin-left: 540px;
+    font-size: 16px;
+    color: gray;
+}
+.world img{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.middle-1 h1{
+    font-size: 40px;
+    margin-left: 400px;
+}
+.middle-1 h2{
+    font-size: 16px;
+    margin-left: 400px;
+}
+.middle-1-input{
+    margin-left: 350px;
+}
+.middle-1 input{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.middle-1 button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #007bfc;
+    border-radius: 5px;
+}
+.middle-1 button:hover{
+    background-color: #469fff;
+}
+.footer{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    float: left;
+    height: 210px;
+    padding: 10px;
+    border-top: 1px solid #e5ebff8f;
+}
+.fo-1 h2{
+    color: #e5ebff8f;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.fo-1 h1{
+    font-size: 18px;
+}
+.fo-list{
+    border-top: 1px solid #e5ebff8f;
+}
+.fo-list ul{
+    list-style-type: none;
+    margin-top: 40px;
+}
+.fo-list ul li{
+    float: left;
+    margin-right: 190px;
+    color: #e5ebff8f;
+}
+.fo-list ul li:first-child{
+    margin-left: 50px;
+}
+.fo-list ul li:hover{
+    color: white;
+}
+.benchmarks{
+    height: 300px;
+    margin-top: 150px;
+    border-top: 1px solid #e5ebff8f;
+}
+.benchmarks h1{
+    color: #2749ad;
+    margin-left: 460px;
+    font-size: 28px;
+    padding-top: 80px;
+}
+.benchmarks h2{
+    font-size: 15px;
+    margin-left: 300px;
+}
+.benchmarks button{
+    color: white;
+    background-color: #007bfc;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    margin-left: 560px;
+}
+.benchmarks button:hover{
+    background-color: #469fff;
+}
+#home{
+    color: #007bfc;
+}

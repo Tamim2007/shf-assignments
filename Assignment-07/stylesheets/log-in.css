@@ -1,0 +1,69 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+.log-sec{
+    border: 1px solid white;
+    height: 400px;
+    width: 500px;
+    border-radius: 6px;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+.log-in h1{
+    color: blue;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.log-in input{
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    border: none;
+    margin-left: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 4px;
+    padding-left: 10px;
+}
+.log-in a{
+    text-decoration: none;
+    color: skyblue;
+}
+.log-in a:hover{
+    color: rgb(212, 244, 255);
+}
+.log-in button{
+    background-color: #007bfc;
+    height: 40px;
+    width: 420px;
+    margin-left: 38px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 40px;
+}
+.log-in button:hover{
+    background-color: #469fff;
+}
+.forget{
+    margin-left: 350px;
+}
+.single-sign{
+    margin-left: 125px;
+}
+.sign-up{
+    margin-left: 550px;
+}
+.logo{
+    margin-left: 560px;
+}
+.sign-up a{
+    text-decoration: none;
+    color: skyblue;
+}
+.sign-up a:hover{
+    color: rgb(212, 244, 255);
+}

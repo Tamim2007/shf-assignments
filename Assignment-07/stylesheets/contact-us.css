@@ -1,0 +1,198 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+.heading{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    height: 100px;
+}
+.nav ul{
+    list-style-type: none;
+}
+.logo{
+    margin-right: 250px;
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    margin-left: 60px;
+    float: left;
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+}
+.nav ul li a:hover{
+    font-size: 25px;
+}
+.Sign-up button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #007bfc;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-left: 60px;
+}
+.Sign-up button:hover{
+    width: 110px;
+    border-radius: 8px;
+    height: 45px;
+    font-size: 20px;
+}
+.footer{
+    background: linear-gradient(90deg,#142149,#233ba2);
+    float: left;
+    height: 210px;
+    padding: 10px;
+    border-top: 1px solid #e5ebff8f;
+    margin-top: 100px;
+}
+.fo-1 h2{
+    color: #e5ebff8f;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.fo-1 h1{
+    font-size: 18px;
+}
+.fo-list{
+    border-top: 1px solid #e5ebff8f;
+}
+.fo-list ul{
+    list-style-type: none;
+    margin-top: 40px;
+}
+.fo-list ul li{
+    float: left;
+    margin-right: 190px;
+    color: #e5ebff8f;
+}
+.fo-list ul li:first-child{
+    margin-left: 50px;
+}
+.fo-list ul li:hover{
+    color: white;
+}
+.reach h1{
+    font-size: 35px;
+    text-align: center;
+}
+.reach h2{
+    text-align: center;
+    font-size: 16px;
+    color: #e5ebff8f;
+}
+.reach a{
+    text-decoration: none;
+    color: #e5ebff8f;
+    font-size: 20px;
+}
+.create-acc h1{
+    font-size: 40px;
+    margin-left: 350px;
+}
+.create-acc-input{
+    margin-left: 305px;
+}
+.create-acc input{
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.create-acc button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #007bfc;
+    border-radius: 5px;
+}
+.create-acc button:hover{
+    background-color: #469fff;
+}
+.mess{
+    height: 1200px;
+    width: 1100px;
+    border: 1px solid #e5ebff8f;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.mess h1{
+    color: #233ba2;
+    margin-left: 400px;
+}
+.customer{
+    height: 100px;
+    font-size: 15px;
+    width: 600px;
+    color: #007bfc;
+    background-color: #EEF4FF;
+    padding-left: 20px;
+    margin-left: 250px;
+    border-radius: 3px;
+}
+.customer h2{
+    float: left;
+    margin-top: 30px;
+}
+.customer button{
+    background-color: #007bfc;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    border: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.customer button:hover{
+    background-color: #469fff;
+}
+.form{
+    color: #e5ebff8f;
+    font-size: 18px;
+}
+.input{
+    height: 40px;
+    width: 600px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 250px;
+}
+.message{
+    height: 180px;
+    width: 600px;
+    border: none;
+    border-radius: 3px;
+}
+.send{
+    background-color: #007bfc;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.send:hover{
+    background-color: #469fff;
+}
+.text{
+    margin-left: 250px;
+}
+#contact-us{
+    color: #007bfc;
+}
