@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02</title>
+    <style>
+        body{
+            background-color: #111;
+            color: wheat;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        function rentCalculator(days){
+            if(10>=days){
+                var bill = days * 100;
+            }
+            else if(20>=days){
+                bill = days * (100 - 20);
+            }
+            else if(20<days){
+                bill = days * (100 - 50);
+            }
+            return bill
+        }
+        document.write("<h1>Total Rent: " + rentCalculator(12) + " BDT</h1>")
+    </script>
+</body>
+</html>
