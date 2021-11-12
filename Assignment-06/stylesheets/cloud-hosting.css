@@ -1,0 +1,243 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.logo{
+    float: left;
+    margin-right: 395px;
+    height: 120px;
+    width: 120px;
+}
+.nav-contant{
+    list-style-type: none;
+}
+#plans-and-pricing{
+    color: #FF6347;
+    font-size: 18px;
+    border: 1px solid #FF6347;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 45px;
+}
+.nav-contant li a{
+    color: white;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.nav-contant li a:hover{
+    color: #FF6347;
+    font-size: 20px;
+}
+.sign-in{
+    background-color: #FF6347;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    border: 0 solid #FF6347;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+}
+.sign-in:hover{
+    width: 85px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.footer{
+    height: 100px;
+    clear: left;
+    background-color: rgb(18, 18, 18);
+}
+.cont-1{
+    float: left;
+    list-style-type: none;
+}
+.cont-1 li{
+    padding-top: 10px;
+}
+.cont-1 li a{
+    text-decoration: none;
+    color: white;
+}
+.cont-2{
+    list-style-type: none;
+    float: left;
+}
+.cont-2 li{
+    padding-top: 10px;
+}
+.cont-2 li a{
+    text-decoration: none;
+    margin-left: 350px;
+    color: white;
+}
+.cont-3{
+    list-style-type: none;
+    float: left;
+}
+.cont-3 li{
+    padding-top: 10px;
+}
+.cont-3 li a{
+    text-decoration: none;
+    margin-left: 350px;
+    color: white;
+}
+.cont-1 li a:hover{
+    color: #FF6347;
+}
+.cont-2 li a:hover{
+    color: #FF6347;
+}
+.cont-3 li a:hover{
+    color: #FF6347;
+}
+.links{
+    width: 1295px;
+    float: left;
+    height: 80px;
+    background-color: rgb(53, 53, 53);
+    margin-top: 20px;
+    padding-top: 30px;
+}
+.facebook button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.facebook button:hover{
+    background-color: rgb(59, 89, 152);
+}
+.twitter button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-right: 100px;
+}
+.twitter button:hover{
+    background-color: rgb(0, 172, 238);
+}
+.google button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-right: 100px;
+}
+.google button:hover{
+    background-color: #db4a39;
+}
+.linkedin button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-right: 100px;
+}
+.linkedin button:hover{
+    background-color: #0e76a8;
+}
+.pinterest button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+}
+.pinterest button:hover{
+    background-color: rgb(230, 0, 35);
+}
+.copyright{
+    float: left;
+    margin-top: 40px ;
+    margin-left: 310px;
+}
+.cart-img{
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cart-img:hover{
+    height: 35px;
+}
+.price-chart thead tr th:first-child{
+    padding-right: 200px;
+}
+.head th:first-child{
+    font-size: 30px;
+    color: #FF6347;
+}
+.price-chart{
+    margin-left: 50px;
+    margin-bottom: 200px;
+    border-left: 1px solid #FF6347;
+    border-right: 1px solid #FF6347;
+    padding-left: 130px;
+    margin-top: 100px;
+}
+.price-chart tbody tr td:first-child{
+    font-size: 22px;
+    padding: 15px;
+    padding-left: 0px;
+    color: #FF6347;
+}
+.head th:nth-child(n+2){
+    font-size: 18px;
+    padding-right: 130px;
+    color: #FF6347;
+}
+.head th p{
+    font-size: 15px;
+    color: #eb6e58;
+}
+.price-chart button{
+    background-color: #FF6347;
+    border: none;
+    width: 90px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 22px;
+}
+.price-chart button:hover{
+    color: rgb(220, 220, 220);
+}
+.cloud-hosting h2{
+    font-size: 15px;
+    color:rgb(200, 200, 200);
+    margin-left: 520px;
+    margin-top: 100px;
+}
+.cloud-hosting h1{
+    font-size: 25px;
+    color: #FF6347;
+    margin-left: 528px;
+}
+.cloud-hosting h3{
+    font-size: 16px;
+    color: rgb(230, 230, 230);
+    margin-left: 330px;
+}
+.cloud-hosting h4{
+    font-size: 16px;
+    color: rgb(230, 230, 230);
+    margin-left: 340px;
+}
+.cloud-hosting h5{
+    font-size: 18px;
+    color: rgb(230, 230, 230);
+    margin-left: 445px;
+}

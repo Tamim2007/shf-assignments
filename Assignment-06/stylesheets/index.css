@@ -1,0 +1,394 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    float: left;
+    margin-right: 420px;
+    height: 120px;
+    width: 120px;
+}
+.nav-contant{
+    list-style-type: none;
+}
+#home{
+    color: #FF6347;
+    font-size: 18px;
+    border: 1px solid #FF6347;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 45px;
+}
+.nav-contant li a{
+    color: white;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.nav-contant li a:hover{
+    color: #FF6347;
+    font-size: 20px;
+}
+.sign-in{
+    background-color: #FF6347;
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+    color: white;
+}
+.sign-in:hover{
+    width: 85px;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+.footer{
+    background-color: rgb(18, 18, 18);
+    height: 100px;
+    margin-top: 40px;
+}
+.cont-1{
+    float: left;
+    list-style-type: none;
+}
+.cont-1 li{
+    padding-top: 10px;
+}
+.cont-1 li a{
+    text-decoration: none;
+    color: white;
+}
+.cont-2{
+    list-style-type: none;
+    float: left;
+}
+.cont-2 li{
+    padding-top: 10px;
+}
+.cont-2 li a{
+    text-decoration: none;
+    margin-left: 350px;
+    color: white;
+}
+.cont-3{
+    list-style-type: none;
+    float: left;
+}
+.cont-3 li{
+    padding-top: 10px;
+}
+.cont-3 li a{
+    text-decoration: none;
+    margin-left: 350px;
+    color: white;
+}
+.cont-1 li a:hover{
+    color: #FF6347;
+}
+.cont-2 li a:hover{
+    color: #FF6347;
+}
+.cont-3 li a:hover{
+    color: #FF6347;
+}
+.best-for-you h1{
+    color: #FF6347;
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 350px;
+}
+.best-for-you h2{
+    font-size: 18px;
+    margin-left: 200px;
+}
+.best-for-you h3{
+    font-size: 18px;
+    margin-left: 600px;
+}
+.best-for-you button{
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: #FF6347;
+    border-radius: 22px;
+    border: 0px solid #FF6347;
+    margin-left: 470px;
+    font-size: 16px;
+}
+.best-for-you button:hover{
+    background-color: #ff4b2b;
+}
+.perfect-domain{
+    background-color: rgb(18, 18, 18);
+    height: 400px;
+    margin-top: 50px;
+    padding-top: 25px;
+}
+.perfect-domain h1{
+    color: #FF6347;
+    font-size: 30px;
+    margin-left: 420px;
+    margin-top: 100px;
+}
+.perfect-domain h2{
+    font-size: 18px;
+    margin-left: 210px;
+}
+.perfect-domain h3{
+    font-size: 18px;
+    margin-left: 440px;
+}
+.perfect-domain input{
+    width: 450px;
+    height: 35px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 2px solid #FF6347;
+    border-radius: 22px;
+    margin-left: 380px;
+}
+.perfect-domain button{
+    width: 80px;
+    height: 35px;
+    font-size: 16px;
+    background-color: #FF6347;
+    border: 0px solid #FF6347;
+    border-radius: 16px;
+    color: white;
+}
+.perfect-domain button:hover{
+    background-color: #ff4b2b;
+}
+.copyright{
+    float: left;
+    margin-top: 40px ;
+    margin-left: 310px;
+}
+.get-started{
+    background-color: rgb(18, 18, 18);
+    height: 400px;
+    margin-top: 50px;
+    padding-top: 80px;
+}
+.get-started h1{
+    color: #FF6347;
+    font-size: 30px;
+    margin-left: 500px;
+}
+.get-started h2{
+    font-size: 30px;
+    margin-left: 580px;
+    color: #FF6347;
+}
+.get-started h3{
+    font-size: 18px;
+    margin-left: 300px;
+}
+.get-started h4{
+    font-size: 18px;
+    margin-left: 420px;
+}
+.get-started button{
+    color: white;
+    background-color: #FF6347;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border: 0px solid #FF6347;
+    border-radius: 22px;
+    margin-left: 480px;
+}
+.get-started button:hover{
+    background-color: #ff4b2b;
+}
+.easy-to-setup img{
+    float: right;
+}
+.easy-to-setup{
+    height: 400px;
+    margin-top: 150px;
+}
+.easy-to-setup h2{
+    padding-top: 90px;
+}
+.middle h2{
+    color: gray;
+    font-size: 16px;
+    margin-left: 50px;
+}
+.middle h1{
+    color: #FF6347;
+    margin-left: 50px;
+    font-size: 35px;
+}
+.middle h3{
+    font-size: 16px;
+    margin-left: 50px;
+}
+.middle a{
+    margin-left: 50px;
+    color: white;   
+}
+.middle a:hover{
+    color: #FF6347;
+    text-decoration: none;
+}
+.performance{
+    height: 400px;
+    margin-top: 150px;
+    background-color: rgb(18, 18, 18);
+}
+.performance img{
+    float: left;
+    margin-right: 150px;
+}
+.performance h2{
+    padding-top: 100px;
+}
+.performance a{
+    margin-left: 0px;
+}
+.wordpress{
+    height: 400px;
+    margin-top: 150px;
+}
+.wordpress img{
+    float: right;
+}
+.wordpress h2{
+    padding-top: 90px;
+}
+.support{
+    height: 400px;
+    margin-top: 150px;
+    background-color: rgb(18, 18, 18);
+}
+.support img{
+    float: left;
+    margin-right: 150px;
+}
+.support h2{
+    padding-top: 90px;
+}
+.support a{
+    margin-left: 0px;
+}
+.micro{
+    height: 400px;
+    margin-top: 150px;
+}
+.micro img{
+    float: right;
+}
+.micro h2{
+    padding-top: 90px;
+}
+.money-back{
+    margin-top: 100px;
+    height: 400px;
+    background-color: rgb(18, 18, 18);
+    padding-top: 80px;
+}
+.money-back h1{
+    font-size: 35px;
+    margin-left: 420px;
+    color: #FF6347;
+}
+.money-back h2{
+    font-size: 16px;
+    margin-left: 280px;
+}
+.money-back h3{
+    font-size: 16px;
+    margin-left:650px;
+}
+.money-back button{
+    color: white;
+    background-color: #FF6347;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+    border: 0px solid #FF6347;
+    border-radius: 22px;
+    margin-left: 520px;
+}
+.money-back button:hover{
+    background-color: #ff4b2b;
+}
+.links{
+    width: 1295px;
+    float: left;
+    height: 80px;
+    background-color: rgb(53, 53, 53);
+    margin-top: 20px;
+    padding-top: 30px;
+}
+.facebook button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.facebook button:hover{
+    background-color: rgb(59, 89, 152);
+}
+.twitter button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-right: 100px;
+}
+.twitter button:hover{
+    background-color: rgb(0, 172, 238);
+}
+.google button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-right: 100px;
+}
+.google button:hover{
+    background-color: #db4a39;
+}
+.linkedin button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+    margin-right: 100px;
+}
+.linkedin button:hover{
+    background-color: #0e76a8;
+}
+.pinterest button{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    border: none;
+}
+.pinterest button:hover{
+    background-color: rgb(230, 0, 35);
+}
+.cart-img{
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.cart-img:hover{
+    height: 35px;
+}
