@@ -1,0 +1,292 @@
+body{
+    background-color: #f1f2f4;
+    font-family: "Lato", sans-serif, "SiyamRupali", sans-serif;
+}
+.logo-search-others{
+    display: flex;
+    background-color: white;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3050;
+    height: 80px;
+    padding-top: 10px;
+    border-bottom: 1px solid #cecfd1;
+}
+.logo-search-others::before{
+    top: 48px; 
+    box-shadow: 0px 2px 5px black;
+}
+.logo{
+    margin-left: 80px;
+    width: 120px;
+    margin-top: 20px;
+}
+.search{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.search-input{
+    width: 550px;
+    height: 20px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid orange;
+    font-size: 15px;
+}
+.search-input:focus{
+    border: 1px solid #0397d3;
+    outline: none;
+}
+.search-input[placeholder]{
+    color: #495057;
+}
+.search-button{
+    background-color: #0397d3;
+    border: none;
+    border-radius: 3px;
+    height: 43px;
+    width: 50px;
+    position: relative;
+    left: -10px;
+    top: 3px;
+}
+.cart-sign-in{
+    margin-left: 100px;
+}
+.sign-in{
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+    transition: background-color, 0.8ms ease-out;
+}
+.sign-in:hover{
+    background-color: #33c24d;
+    color: white;
+}
+.cart{
+    margin-right: 25px;
+    position: relative;
+    bottom: -14px;
+}
+.nav{
+    background-color: white;
+    margin-top: 84px;
+    height: 60px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+}
+.main-nav li{
+    margin-left: 30px;
+    display: inline-block;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: black;
+    transition: color, 1s;
+}
+.main-nav li a:hover{
+    color: #0397d3;
+}
+#offer:hover{
+    color: #fd7e14;
+}
+.gift{
+    height: 26px;
+    padding-left: 8px;
+    position: relative;
+    top: 4px;
+    left: -6px;
+}
+.empty-cart{
+    text-align: center;
+    margin-top: 100px;
+}
+.empty-cart a{
+    text-decoration: none;
+    color: #007bff;
+    transition: color, 1s;
+}
+.empty-cart a:hover{
+    color: blue;
+}
+.acpt-pmnt{
+    background-color: white;
+    border-bottom: 1px solid #a2a2a2;
+    border-top: 1px solid #a2a2a2;
+    height: 80px;
+    justify-content: center;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding-top: 30px;
+}
+.pmnt-srvc{
+    display: inline;
+    padding-left: 10px;
+}
+.pmnt-text{
+    display: inline;
+    margin-left: 250px;
+    position: relative;
+    bottom: 8px;
+    margin-right: 20px;
+}
+.about-rokomari-sec{
+    background-color: white;
+    height: 100px;
+    margin-right: -8px;
+    margin-left: -8px;
+    padding: 10px;
+}
+.about-rokomari{
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 14px
+}
+.copyright{
+    text-align: center;
+    font-size: 14.4px;
+    letter-spacing: -0.5px;
+    height: 20px;
+}
+.footer-row-1{
+    float: left;
+}
+.footer-main{
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 60px;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+.footer-info{
+    height: 300px;
+    width: 400px;
+}
+.hotline{
+    margin-top: 30px;
+}
+.hotline p{
+    position: relative;
+    top: -40px;
+    left: 30px;
+    color: #a2a2a2;
+}
+.hotline em{
+    position: relative;
+    top: -80px;
+    left: 90px;
+}
+.corporate{
+    margin-top: -50px;
+}
+.corporate img{
+    position: relative;
+    top: 30px;
+}
+.corporate p{
+    position: relative;
+    top: -10px;
+    left: 30px;
+    color: #a2a2a2;
+}
+.corporate em{
+    position: relative;
+    top: -80px;
+    left: 110px;
+}
+.mail{
+    margin-top: -30px;
+}
+.mail p{
+    position: relative;
+    top: -38px;
+    left: 40px;
+}
+.mail a{
+    text-decoration: none;
+    color: #a2a2a2;
+    transition: color, 1s;
+}
+.mail a:hover{
+    color: #0397d3;
+}
+.address{
+    margin-top: -30px;
+}
+.address p{
+    position: relative;
+    top: -38px;
+    left: 40px;
+} 
+
+.p p{
+    position: relative;
+    right: 18px;
+    font-weight: 700;
+}
+.p ul{
+    list-style-type: circle;
+    font-size: 14px;
+}
+.p a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #495057;
+}
+.p a:hover{
+    color: #0397d3;
+}
+.col-1{
+    margin-bottom: 40px;
+}
+.footer-row-3{
+    position: absolute;
+    left: 750px;
+    top: 598px;
+}
+.col-3 ul{
+    position: relative;
+    right: 40px;
+}
+.col-4{
+    margin-top: 42px;
+}
+.col-4 ul{
+    position: relative;
+    right: 40px;
+}
+.footer-row-4{
+    position: absolute;
+    left: 1100px;
+    top: 598px;
+}
+.col-5 ul{
+    position: relative;
+    right: 40px;
+}
+.col-6{
+    margin-top: 88px;
+}
+.col-6 ul{
+    position: relative;
+    right: 40px;
+}
