@@ -21,14 +21,20 @@
                 var bill = days * 100;
             }
             else if(20>=days){
-                bill = days * (100 - 20);
+                var first = 100 * 10;
+                var remaining = days - 10;
+                var second = remaining * 80;
+                bill = first + second
             }
-            else if(20<days){
-                bill = days * (100 - 50);
+            else if(20<=days){
+                first =  10 * 100
+                second = 10 * 80;
+                remaining = day - 20;
+                bill = remaining * 50
             }
-            return bill
-        }
-        document.write("<h1>Total Rent: " + rentCalculator(12) + " BDT</h1>")
+            return bill;
+        };
+        document.write("<h1>Total Rent: " + rentCalculator(21) + " BDT</h1>")
     </script>
 </body>
 </html>

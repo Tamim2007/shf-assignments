@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 12</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>calculator</h1>
+    <div class="calculator">
+        <input type="text" id="display" placeholder="0">
+        <table>
+            <tr>
+                <td><button class="btn-num bg-light" onclick="number('(')">(</button></td>
+                <td><button class="btn-num bg-light" onclick="number(')')">)</button></td>
+                <td><button class="btn-num bg-light" onclick="number('%')">%</button></td>
+                <td><button class="btn-num bg-light" onclick="del()">AC</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn-num" onclick="number(7)">7</button></td>
+                <td><button class="btn-num" onclick="number(8)">8</button></td>
+                <td><button class="btn-num" onclick="number(9)">9</button></td>
+                <td><button class="btn-num bg-light" onclick="number('/')">÷</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn-num" onclick="number(4)">4</button></td>
+                <td><button class="btn-num" onclick="number(5)">5</button></td>
+                <td><button class="btn-num" onclick="number(6)">6</button></td>
+                <td><button class="btn-num bg-light" onclick="number('*')">×</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn-num" onclick="number(1)">1</button></td>
+                <td><button class="btn-num" onclick="number(2)">2</button></td>
+                <td><button class="btn-num" onclick="number(3)">3</button></td>
+                <td><button class="btn-num bg-light df-size" onclick="number('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn-num" onclick="number(0)">0</button></td>
+                <td><button class="btn-num" onclick="number('.')">.</button></td>
+                <td><button class="btn-num equel" onclick="equel()">=</button></td>
+                <td><button class="btn-num bg-light" onclick="number('+')">+</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
