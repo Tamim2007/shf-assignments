@@ -1,0 +1,27 @@
+body{
+	background-color: #4f4f4f;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.logo{
+	margin-top: 40px;
+	margin-left: 30px;
+	font-size: 25px;
+	color: red;
+}
+.blog{
+	border: 2px solid #111;
+	width: 350px;
+	height: 460px;
+	margin: 10px;
+	margin-left: 30px;
+	padding: 10px;
+	float: left;
+	border-radius: 20px;
+}
+button{
+	padding: 2px;
+	height: 30px;
+	background-color: #636363;
+	color: white;
+}
