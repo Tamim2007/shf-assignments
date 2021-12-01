@@ -26,10 +26,10 @@
                 var second = remaining * 80;
                 bill = first + second
             }
-            else if(20<=days){
+            else{
                 first =  10 * 100
                 second = 10 * 80;
-                remaining = day - 20;
+                remaining = days - 20;
                 bill = remaining * 50
             }
             return bill;
