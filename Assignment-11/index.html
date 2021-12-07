@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 01</title>
+    <style>
+        body{
+            background-color: #111;
+            color: wheat;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.write('<h1>Total Cost of Products</h1>')
+        function items(itm1, itm2, itm3, itm4){
+            var total = itm1 + itm2 + itm3 + itm4;
+            return total
+        }
+        document.write("<h3>Total Price: " + items(100, 100, 100, 150) + " BDT</h3></br>");
+        document.write("Find the greatest name")
+        function longestName(frndlist){
+            var longName = "";
+            for(var i = 0; i < frndlist.length; i++){
+                if(longName.length < frndlist[i].length){
+                    longName = frndlist[i];
+                }
+            }
+            return longName
+        }
+        document.write("<h3> The longest Name is: " + longestName(["Mushfiq-ul Haque", "Md Tamimul Alam Chy"]) + "</h3></br>")
+        document.write("Hotel rent cost calculator")
+        function rentCalculator(days){
+            if(10>=days){
+                var bill = days * 100;
+            }
+            else if(20>=days){
+                var first = 100 * 10;
+                var remaining = days - 10;
+                var second = remaining * 80;
+                bill = first + second
+            }
+            else{
+                first =  10 * 100
+                second = 10 * 80;
+                remaining = days - 20;
+                bill = remaining * 50
+            }
+            return bill;
+        };
+        document.write("<h1>Total Rent: " + rentCalculator(21) + " BDT</h1>")
+    </script>
+</body>
+</html>
